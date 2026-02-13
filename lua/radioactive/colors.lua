@@ -5,40 +5,55 @@ local M = {}
 ---@class Palette
 M.default = {
 	none = "NONE",
-	bg = "#212337",
-	bg_dark = "#171928",
-	bg_highlight = "#292e42",
+
+	-- Background layers
+	bg = "#0D1116",
+	bg_dark = "#141b22",
+	bg_float = "#141b22",
+	bg_highlight = "#292e42", -- kept a similar mid-tone dark for highlights
+
+	-- Terminal & black
 	terminal_black = "#414868",
-	fg = "#ebfafa",
-	fg_dark = "#ABB4DA",
+
+	-- Foreground / text layers
+	fg = "#ffffff",
+	fg_dark = "#b7bfce",
 	fg_gutter = "#3b4261",
 	fg_gutter_light = "#7081d0",
+
+	-- Dark muted tones
 	dark3 = "#6473B7",
-	comment = "#7081d0",
 	dark5 = "#5866A2",
+
+	-- Bright / accent colors
 	bright_cyan = "#39DDFD",
-	visual = "#76639e",
-	bg_visual = "#76639e",
 	cyan = "#04d1f9",
 	dark_cyan = "#10A1BD",
-	magenta = "#a48cf2",
-	magenta2 = "#bf4f8e",
+
+	magenta = "#fca6ff",
+	magenta2 = "#a48cf2",
 	magenta3 = "#722f55",
 	pink = "#f265b5",
-	purple = "#a48cf2",
-	orange = "#f7c67f",
+	purple = "#987afb",
+
+	orange = "#e58f2a",
 	yellow = "#f1fc79",
 	dark_yellow = "#c0c95f",
+
 	green = "#37f499",
-	bright_green = "#00FA82",
-	dark_green = "#33C57F",
+	bright_green = "#05ff23",
+	dark_green = "#1e2b00",
+
 	red = "#f16c75",
 	bright_red = "#f0313e",
+
+	-- Git colors (directly from your palette)
 	git = {
 		change = "#7081d0",
 		add = "#37f499",
 		delete = "#f16c75",
 	},
+
 	gitSigns = {
 		add = "#37f499",
 		change = "#7081d0",
