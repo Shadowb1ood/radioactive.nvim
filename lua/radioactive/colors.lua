@@ -5,50 +5,35 @@ local M = {}
 ---@class Palette
 M.default = {
 	none = "NONE",
-
-	-- Background layers
-	bg = "#0D1116",
 	bg_dark = "#141b22",
-	bg_float = "#141b22",
-	bg_highlight = "#292e42", -- kept a similar mid-dark tone (no exact match in your palette)
-
-	-- Terminal & black
+	bg = "#0D1116",
+	bg_highlight = "#292e42",
 	terminal_black = "#414868",
-
-	-- Foreground / text layers
 	fg = "#ffffff",
 	fg_dark = "#b7bfce",
 	fg_gutter = "#3b4261",
 	fg_gutter_light = "#7081d0",
-	comment = "#3b4261",
-
-	-- Dark muted tones
 	dark3 = "#6473B7",
+	comment = "#7081d0",
 	dark5 = "#5866A2",
-
-	-- Bright / accent colors
 	bright_cyan = "#39DDFD",
+	visual = "#76639e",
+	bg_visual = "#76639e",
 	cyan = "#04d1f9",
 	dark_cyan = "#10A1BD",
-
 	magenta = "#fca6ff",
 	magenta2 = "#a48cf2",
 	magenta3 = "#722f55",
 	pink = "#f265b5",
 	purple = "#987afb",
-
 	orange = "#e58f2a",
 	yellow = "#f1fc79",
 	dark_yellow = "#c0c95f",
-
 	green = "#37f499",
 	bright_green = "#05ff23",
 	dark_green = "#1e2b00",
-
 	red = "#f16c75",
 	bright_red = "#f0313e",
-
-	-- Git colors (directly from your palette)
 	git = {
 		change = "#7081d0",
 		add = "#37f499",
