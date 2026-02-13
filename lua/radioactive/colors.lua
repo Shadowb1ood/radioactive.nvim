@@ -1,4 +1,7 @@
+local util = require("radioactive.util")
+
 local M = {}
+
 M.colors = {
 	none = "NONE",
 	bg = "#212337",
@@ -41,6 +44,7 @@ M.colors = {
 		delete = "#f16c75",
 	},
 }
+
 function M.setup(opts)
 	opts = opts or {}
 	vim.cmd("hi clear")
