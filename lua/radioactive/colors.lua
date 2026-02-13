@@ -52,7 +52,7 @@ function M.setup(opts)
 		vim.cmd("syntax reset")
 	end
 	vim.o.background = "dark"
-	vim.g.colors_name = "radioactive_eldritch"
+	vim.g.colors_name = "radioactive"
 	local hl = vim.api.nvim_set_hl
 	-- Core UI
 	hl(0, "Normal", { fg = M.colors.fg, bg = M.colors.bg })
