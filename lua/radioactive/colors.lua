@@ -10,7 +10,7 @@ M.default = {
 	bg = "#0D1116",
 	bg_dark = "#141b22",
 	bg_float = "#141b22",
-	bg_highlight = "#292e42", -- kept a similar mid-tone dark for highlights
+	bg_highlight = "#292e42", -- kept a similar mid-dark tone (no exact match in your palette)
 
 	-- Terminal & black
 	terminal_black = "#414868",
@@ -60,7 +60,6 @@ M.default = {
 		delete = "#f16c75",
 	},
 }
-
 ---@return ColorScheme
 function M.setup()
 	local config = require("radioactive.config")
