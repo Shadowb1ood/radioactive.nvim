@@ -20,6 +20,7 @@ M.default = {
 	fg_dark = "#b7bfce",
 	fg_gutter = "#3b4261",
 	fg_gutter_light = "#7081d0",
+	comment = "#3b4261",
 
 	-- Dark muted tones
 	dark3 = "#6473B7",
