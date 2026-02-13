@@ -5,7 +5,7 @@ local M = {}
 ---@field on_highlights fun(highlights: Highlights, colors: ColorScheme)
 local defaults = {
 	transparent = false, -- Enable this to disable setting the background color
-	palette = "default", -- DEPRECATED: Use `vim.cmd.colorscheme eldritch-dark` or vim.cmd.colorsscheme eldritch-minimal instead to switch to the darker palette.
+	palette = "default", -- DEPRECATED: Use `vim.cmd.colorscheme radioactive_adark` or vim.cmd.colorsscheme eldritch-minimal instead to switch to the darker palette.
 	terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
 	styles = {
 		-- Style to be applied to different syntax groups
@@ -42,7 +42,7 @@ local defaults = {
 ---@type Config
 M.options = {}
 -- NOTE: This is temprorary for retrocompatibility with palette option
-M.initial_options = {} -- To store options from eldritch.setup()
+M.initial_options = {} -- To store options from radioactive.setup()
 
 ---@param options Config|nil
 function M.setup(options)
