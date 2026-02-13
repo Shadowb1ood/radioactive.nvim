@@ -156,6 +156,7 @@ local function setup(configs)
 		["@function.macro"] = { fg = colors.purple },
 		["@variable.parameter"] = { fg = colors.orange },
 		["@variable.parameter.reference"] = { fg = colors.orange },
+		["@variable.parameter.builtin"] = { fg = colors.purple },
 		["@function.method"] = { fg = colors.purple },
 		["@variable.member"] = { fg = colors.orange },
 		["@property"] = { fg = colors.bright_green },
